@@ -396,6 +396,9 @@ var coco_global_banner2_package = __webpack_require__("dc7b");
 
 // 为组件提供 install 安装方法，供按需引入
 coco_global_banner2.install = function (Vue) {
+  console.log("注册全局组件：coco-global-banner2");
+  // eslint-disable-next-line no-debugger
+  debugger;
   Vue.component(`${coco_global_banner2_package.name}.${coco_global_banner2_package.version}`, coco_global_banner2);
 };
 

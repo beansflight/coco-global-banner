@@ -389,6 +389,9 @@ var coco_global_banner_package = __webpack_require__("1312");
 
 // 为组件提供 install 安装方法，供按需引入
 coco_global_banner.install = function (Vue) {
+  console.log("注册全局组件：coco-global-banner");
+  // eslint-disable-next-line no-debugger
+  debugger;
   Vue.component(`${coco_global_banner_package.name}.${coco_global_banner_package.version}`, coco_global_banner);
 };
 
