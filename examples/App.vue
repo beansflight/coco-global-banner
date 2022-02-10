@@ -5,30 +5,30 @@
 </template>
 
 <script>
-import { Component as CocoBanner } from '../packages/coco-global-banner';
+import { Component as CocoBanner } from "../packages/coco-global-banner2";
 
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
-      component: 'div',
+      component: "div",
       config: {
-        src: require('./banner.jpg'),
+        src: require("./banner.jpg"),
       },
-    }
+    };
   },
   components: {
     CocoBanner,
-  }
-}
+  },
+};
 </script>
 <style>
 * {
   margin: 0;
   padding: 0;
-
 }
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 </style>
